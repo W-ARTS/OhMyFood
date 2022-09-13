@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 h2{
+    font-family: 'Shrikhand', sans-serif;
+}
+
+.titre{
+    text-align-last: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.logo_titre{
+    width: 11%;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+    box-shadow: inset -25px 25px 81px #dcdcdc,
+            inset 25px -25px 81px #f8f8f8;
+}
+
+.map{
+    align-self: center;
+    margin-right: 7px;
+}
+
+.presentation{
+    background-image:url(images/restaurants_figuré.jpg);
+    color: white;
+    filter: drop-shadow(2px 4px 6px black);
+    padding: 7%;
+    text-align: center;
+}
+
+.bouton_presentation{
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    border: none;
+    color: white;
+    padding: 1%;
+    border-radius: 22px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+
+/*hover*/
+
+.bouton_presentation:hover{
+    background: linear-gradient(162deg, #ffa8e7 0%,#a968f7 100%);
+    border: none;
+    color: white;
+    padding: 1%;
+    border-radius: 22px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    transform: scale(1.05);
+}
