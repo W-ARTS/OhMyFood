@@ -34,7 +34,7 @@ h1 h2{
     background-image:url(images/restaurants_figuré.jpg);
     color: white;
     filter: drop-shadow(2px 4px 6px black);
-    padding: 7%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -45,6 +45,68 @@ h1 h2{
     padding: 1%;
     border-radius: 22px;
     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    cursor: pointer;
+}
+
+.list_fonctionnement{
+    margin-top: 2%;
+}
+
+.titre_fonctionnement{
+    margin-left: 10%;
+}
+
+.list_propre{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: -11%;
+}
+
+.ft_restaurant{
+    display: flex;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 1.25rem;
+    background-color: #f6f6f6;
+    margin-right: -140%;
+}
+
+.img_restaurant{
+    height: max-content;
+    padding-top: 12px;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.ft_menu{
+    display: flex;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 1.25rem;
+    background-color: #f6f6f6;
+    margin-right: -140%;
+}
+
+.img_menu{
+    height: max-content;
+    padding-top: 12px;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.ft_degustation{
+    display: flex;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 1.25rem;
+    background-color: #f6f6f6;
+    margin-right: -140%;
+        margin-left: -10%;
+}
+
+.img_degustation{
+    height: max-content;
+    padding-top: 12px;
+    padding-left: 5%;
+    padding-right: 3%;
 }
 
 
