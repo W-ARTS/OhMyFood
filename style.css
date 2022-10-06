@@ -96,6 +96,21 @@ h1 h2{
     margin-bottom: 1%;
 }
 
+.pages_restaurants{
+    display: flex;
+}
+
+.logo_titre_2{
+    padding-left: 36%!important;
+}
+
+.return{
+    font-size: 26px;
+    padding-top: 2px;
+    padding-left: 4%;
+    color: black;
+}
+
 .logo_titre{
     width: 11%;
 }
@@ -114,7 +129,9 @@ h1 h2{
 }
 
 .presentation{
-    background-image:url(images/restaurants_figuré.jpg);
+    background-image:url(images/gold-cutlery-set-black-background.jpg);
+    background-position: center;
+    background-size: cover;
     color: white;
     filter: drop-shadow(2px 4px 6px black);
     padding: 5%;
@@ -129,7 +146,7 @@ h1 h2{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 22px;
-    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    box-shadow: 8px 9px 6px -1px rgba(0, 0, 0, 0.22);
     cursor: pointer;
 }
 
@@ -315,20 +332,180 @@ background-color: #99e2d0;
     display: flex;
 }
 
+/*Pages des restaurants*/
+
+.p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.img_la_palette_du_gout{
+    max-width: 100%;
+    max-height: 32rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section_menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.Carte_menu_palette_du_gout{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -4rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #f6f6f6;
+    z-index: 1;
+    position: relative;
+}
+
+.titre_de_la_palette_du_gout{
+    font-family: Shrikhand, "cursive";
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.like3{
+    padding-top: 70px;
+}
+
+.grand_titre_entree{
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.menu_items{
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    border-radius: 0.75rem;
+    margin: 1rem 0;
+    box-shadow: .25rem .25rem 1remrgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+    animation: itemAppear .6s;
+    animation-timing-function: cubic-bezier(.5, 1.58, .34, .82);
+    animation-fill-mode: both;
+    transform: scale(0);
+    max-width: 100%;
+}
+
+.menu_items_header{
+    white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+}
+
+.menu_items_titre{
+    margin: 0;
+}
+
+.menu_items_description{
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.menu_items__prix{
+    margin-right: auto;
+    
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0.5rem;
+}
+
+@keyframes itemAppear {
+     0%{
+        transform: scale(0);
+     }
+     100%{
+        transform: scale(1);
+     }
+}
+
+@keyframes rotation {
+    0%{
+        margin-right: -15%;
+    }
+
+    100%{
+        margin-right: -5px;
+    }
+}
+
+.menu_items_confirmation{
+    margin: -5%;
+    margin-right: -21%;
+    background-color: #99e2d0;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
+}
+
+.menu_items_animation{
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.menu_items_icon{
+        color: #99e2d0;
+}
+
+.bouton_commander{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.command_Btn{
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
+}
 
 /*hover*/
 
 .bouton_presentation:hover{
-    background: linear-gradient( #ffa8e7 0%,#a968f7 100%);
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
     border: none;
     color: white;
     padding: 1%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 22px;
-    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
-    transform: scale(1.04);
-    transition: 2s;
+    box-shadow: 7px 10px 6px -1px rgba(0, 0, 0, 0.48);
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+.carte:hover{
+    box-shadow: 8px 9px 6px -1px rgba(0, 0, 0, 0.22);
+    transition: 0.6s;
 }
 
 .like2:hover{
@@ -340,6 +517,11 @@ background-color: #99e2d0;
     margin-top: -9%;
     margin-right: 7%;
     color: #ff79da;
+}
+
+.menu_items:hover{
+    transition: 1s;
+    padding-right: 16%;
 }
 
 .proposer_restaurant:hover{
@@ -359,6 +541,7 @@ background-color: #99e2d0;
 }
 
 
+
 /*mobile*/
 
 @media screen and (max-width: 767px) {
@@ -366,6 +549,14 @@ background-color: #99e2d0;
     .logo_titre{
         padding: 5%;
         width: 50%;
+    }
+
+    .logo_titre_2{
+        padding-left: 15%;
+    }
+
+    .return{
+        padding-top: 20px;
     }
 
     .titre{
