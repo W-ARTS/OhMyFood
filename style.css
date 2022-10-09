@@ -139,14 +139,16 @@ h1 h2{
 }
 
 .bouton_presentation{
-    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
-    border: none;
-    color: white;
-    padding: 1%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 22px;
-    box-shadow: 8px 9px 6px -1px rgba(0, 0, 0, 0.22);
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 90%;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
     cursor: pointer;
 }
 
@@ -398,8 +400,8 @@ background-color: #99e2d0;
 
 .menu_items_header{
     white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .menu_items_titre{
@@ -415,7 +417,6 @@ background-color: #99e2d0;
 
 .menu_items__prix{
     margin-right: auto;
-    
     font-weight: 700;
     display: flex;
     justify-content: flex-end;
@@ -461,6 +462,7 @@ background-color: #99e2d0;
     align-items: center;
     justify-content: center;
     border-radius: 100px;
+    rotate: 190deg;
 }
 
 .menu_items_icon{
@@ -488,18 +490,59 @@ background-color: #99e2d0;
     cursor: pointer;
 }
 
+/*prix*/
+
+.prix_1{
+    margin-left: 40%;
+}
+
+.prix_2{
+    margin-left: 25%;
+}
+
+.prix_3{
+    margin-left: 5%;
+}
+
+.prix_4{
+    margin-left: 8%;
+}
+
+.prix_5{
+    margin-left: 15%;
+}
+
+.prix_6{
+    margin-left: 57%;
+}
+
+.prix_7{
+    margin-left: 58%;
+}
+
+.prix_8{
+    margin-left: 14%;
+}
+
+.prix_9{
+    margin-left: 5%;
+}
+
 /*hover*/
 
 .bouton_presentation:hover{
-    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
-    border: none;
-    color: white;
-    padding: 1%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 22px;
-    box-shadow: 7px 10px 6px -1px rgba(0, 0, 0, 0.48);
-    transform: scale(1.02);
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 90%;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     transition: 1s;
 }
 
@@ -522,6 +565,19 @@ background-color: #99e2d0;
 .menu_items:hover{
     transition: 1s;
     padding-right: 16%;
+}
+
+.menu_items:hover>.menu_items_confirmation .menu_items_animation{
+    transform: rotate(180deg);
+}
+
+.menu_items_animation {
+    transition: transform .7s ease-in-out;
+}
+
+.command_Btn:hover{
+    transition: 1s;
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .proposer_restaurant:hover{
