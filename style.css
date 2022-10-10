@@ -278,7 +278,7 @@ h1 h2{
 }
 
 .vignette{
-background-color: #99e2d0;
+    background-color: #99e2d0;
     color: #1b6150;
     padding: 0.5rem;
     border-radius: 0.125rem;
@@ -334,6 +334,12 @@ background-color: #99e2d0;
     display: flex;
 }
 
+.mailto{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /*Pages des restaurants*/
 
 .p{
@@ -371,6 +377,14 @@ background-color: #99e2d0;
     padding-top: 20px;
 }
 
+.under_line{
+    width: 3rem;
+    height: 0.25rem;
+    background-color: #99e2d0;
+    position: absolute;
+    margin-top: -23px;
+}
+
 .like3{
     padding-top: 70px;
 }
@@ -384,11 +398,11 @@ background-color: #99e2d0;
 
 .menu_items{
     background-color: #fff;
-    padding: 1rem;
+    padding: 3%;
     display: flex;
     border-radius: 0.75rem;
     margin: 1rem 0;
-    box-shadow: .25rem .25rem 1remrgba(0, 0, 0, .1);
+    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
     overflow: hidden;
     cursor: pointer;
     animation: itemAppear .6s;
@@ -467,6 +481,10 @@ background-color: #99e2d0;
 
 .menu_items_icon{
         color: #99e2d0;
+}
+
+.menu_items_animation {
+    transition: transform .7s ease-in-out;
 }
 
 .bouton_commander{
@@ -565,19 +583,65 @@ background-color: #99e2d0;
 .menu_items:hover{
     transition: 1s;
     padding-right: 16%;
+    
 }
 
 .menu_items:hover>.menu_items_confirmation .menu_items_animation{
     transform: rotate(180deg);
 }
 
-.menu_items_animation {
-    transition: transform .7s ease-in-out;
+.section1:hover>.prix_1{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section2:hover>.prix_2{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section3:hover>.prix_3{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section4:hover>.prix_4{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section5:hover>.prix_5{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section6:hover>.prix_6{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section7:hover>.prix_7{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section8:hover>.prix_8{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section9:hover>.prix_9{
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section3:hover>.prix_3 .menu_items_confirmation .menu_items_animation{
+    margin-right: 10%;
 }
 
 .command_Btn:hover{
     transition: 1s;
-    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .proposer_restaurant:hover{
@@ -687,19 +751,18 @@ background-color: #99e2d0;
 
     .like2{
         width: 9%;
-        margin-top: -16%;
+        margin-top: -21%!important;
     }
 
     .like2:hover {
-    cursor: pointer;
-    filter: opacity(10);
-    transition: 0.70s;
-    float: right;
-    margin-bottom: -4%;
-    margin-top: -16%;
-    margin-right: 7%;
-    color: #ff79da;
-
+        cursor: pointer;
+        filter: opacity(10);
+        transition: 0.70s;
+        float: right;
+        margin-bottom: -4%;
+        margin-top: -19%;
+        margin-right: 7%;
+        color: #ff79da;
     }
 
     .footer_logo{
@@ -712,4 +775,85 @@ background-color: #99e2d0;
     }
 
 
+    /*pages-mobile*/
+
+    .logo_titre_2{
+        margin-left: -18%;
+    }
+
+    .like3{
+        margin-top: -50%;
+    }
+
+    .like3:hover .like2:hover{
+        color: #ff79da;
+    }
+
+    .section_menu{
+        display: block;
+    }
+
+    .Carte_menu_palette_du_gout{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .titre_de_la_palette_du_gout{
+        padding-left: 59px;
+    }
+
+    .menu_items{
+        padding: 8px;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .menuItem:hover .menuItem__confirmation {
+            margin-right: -1rem;
+    }
+
+    .menu_items__prix{
+        align-items: center;
+    }
+
+    .prix_1 {
+        margin-left: 43%;
+    }
+
+    .prix_2 {
+        margin-left: 26%;
+    }
+
+    .prix_4 {
+        margin-left: 0%;
+    }
+
+    .prix_5 {
+        margin-left: 8%;
+    }
+
+    .prix_6 {
+        margin-left: 58%;
+    }
+
+    .prix_7 {
+        margin-left: 65%;
+    }
+
+    .prix_8 {
+        margin-left: 16%;
+    }
+
+    .prix_9 {
+        margin-left: 6%;
+    }
+
+
+
 }
+
+
+
+
