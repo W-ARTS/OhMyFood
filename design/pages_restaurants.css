@@ -11,7 +11,21 @@
     object-fit: cover;
 }
 
-.section_menu {
+.img_la_note_enchantee{
+    max-width: 100%;
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img_a_la_francaise{
+    max-width: 100%;
+    max-height: 38rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section_menu{
     display: flex;
     justify-content: space-between;
     max-width: 1280px;
@@ -46,7 +60,7 @@
 .like3 {
     filter: opacity(0.5);
     padding-left: 92%;
-    margin-top: -1%;
+    margin-top: -15%;
 }
 
 .grand_titre_entree {
@@ -74,6 +88,7 @@
 
 .v2 {
     padding: 2.80%;
+    padding-right: 0%;
 }
 
 .menu_items_header {
@@ -100,6 +115,14 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-left: 0.5rem;
+}
+
+.i_2{
+    padding-left: 2.5rem;
+}
+
+.i_3{
+    padding-right: 5rem;
 }
 
 @keyframes itemAppear {
@@ -175,38 +198,132 @@
 
 /*prix*/
 
-.prix_1 {
+.prix_1{
     margin-left: 40%;
 }
 
-.prix_2 {
+.prix_2{
     margin-left: 25%;
 }
 
-.prix_3 {
+.prix_3{
     margin-left: 5%;
 }
 
-.prix_4 {
+.prix_4{
     margin-left: 8%;
 }
 
-.prix_5 {
+.prix_5{
     margin-left: 15%;
 }
 
-.prix_6 {
+.prix_6{
     margin-left: 57%;
 }
 
-.prix_7 {
+.prix_7{
     margin-left: 58%;
 }
 
-.prix_8 {
+.prix_8{
     margin-left: 14%;
 }
 
-.prix_9 {
+.prix_9{
     margin-left: 5%;
+}
+
+.prix_11{
+    margin-left: 8%;
+    margin-right: 11%;
+}
+
+.prix_12{
+    margin-right: 11%;
+    margin-left: 24%;
+}
+
+.prix_13{
+    margin-left: 28%;
+    margin-right: 12%;
+}
+
+.prix_14{
+    margin-left: 19%;
+    margin-right: 14%;
+}
+
+.prix_15{
+    margin-right: 12.80%;
+    margin-left: 11.80%;
+}
+
+.prix_16{
+    margin-left: 31%;
+    margin-right: 12%;
+}
+
+.prix_17{
+    margin-left: 9%;
+    margin-right: 11%;
+}
+
+.prix_18{
+    margin-left: 7%;
+    margin-right: 11%;
+}
+
+.prix_19{
+    margin-left: 44%;
+    margin-right: 10%;
+}
+
+.prix_20{
+    margin-left: 34%;
+    margin-right: 10%;
+}
+
+.prix_21{
+    margin-right: -14%;
+}
+
+.prix_22{
+    margin-left: 33%;
+    margin-right: -14%;
+}
+
+.prix_23{
+    margin-left: 56%;
+    margin-right: -13%;
+}
+
+.prix_25{
+    margin-left: 30%;
+    margin-right: -11%;
+}
+
+.prix_26{
+    margin-left: 31%;
+    margin-right: -10%;
+}
+
+.prix_27{
+    margin-left: 30%;
+    margin-right: -10%;
+}
+
+.prix_28{
+    margin-left: 37%;
+    margin-right: -15%;
+}
+
+.prix_29{
+    margin-left: 48%;
+    margin-right: 10%;
+}
+
+.prix_30{
+    margin-left: 34%;
+    margin-right: -14%;
 }

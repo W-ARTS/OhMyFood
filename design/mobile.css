@@ -5,8 +5,8 @@
         width: 50%;
     }
 
-    .logo_titre_2 {
-        padding-left: 15%;
+    .logo_titre_2{
+        margin-left: -23%!important;
     }
 
     .return {
@@ -158,6 +158,8 @@
         align-items: center!important;
     }
 
+    /*prix-restaurants*/
+
     .prix_1 {
         margin-left: 43%!important;
     }
@@ -190,5 +192,61 @@
         margin-left: 6%!important;
     }
 
+    .prix_11 {
+        margin-left: 10%!important;
+        margin-right: 12%;
+    }
+
+    .prix_12 {
+        margin-right: 11%;
+    }
+
+    .prix_13{
+        margin-right: 10%!important;
+    }
+
+    .prix_14{
+        margin-right: 10%!important;
+    }
+
+    .prix_15{
+        margin-right: 10%!important;
+        margin-left: 11%!important;
+    }
+
+    .prix_16{
+        margin-left: 33%!important;
+        margin-right: 10%!important;
+    }
+
+    .prix_17{
+        margin-left: 17%!important;
+    }
+
+    .prix_18{
+        margin-left: 7%!important;
+    }
+
+    .prix_19{
+        margin-left: 44%!important;
+    }
+
+    .prix_20{
+        margin-left: 34%!important;
+    }
+
+    .prix_21{
+        margin-right: -14%;
+        margin-left: 35% !important;
+    }
+
+    .prix_22{
+        margin-left: 30% !important;
+        margin-right: -15%;
+    }
+
+    .prix_23{
+
+    }
 
 }
