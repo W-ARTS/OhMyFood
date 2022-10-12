@@ -129,7 +129,7 @@ h1 h2{
 }
 
 .presentation{
-    background-image:url(images/gold-cutlery-set-black-background.jpg);
+    background-image:url(/images/gold-cutlery-set-black-background.jpg);
     background-position: center;
     background-size: cover;
     color: white;

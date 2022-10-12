@@ -36,10 +36,10 @@
     }
 
     .bouton_presentation {
-        padding: 4%;
-        padding-left: 10%;
-        padding-right: 10%;
-        font-size: initial;
+        padding: 4%!important;
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+        font-size: initial!important;
     }
 
     .list_propre {
