@@ -1,0 +1,119 @@
+/*hover*/
+
+.bouton_presentation:hover {
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 90%;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 1s;
+}
+
+.carte:hover {
+    box-shadow: 8px 9px 6px -1px rgba(0, 0, 0, 0.22);
+    transition: 0.6s;
+}
+
+.like2:hover {
+    cursor: pointer;
+    filter: opacity(10);
+    transition: 0.70s;
+    float: right;
+    margin-bottom: -4%;
+    margin-top: -9%;
+    margin-right: 7%;
+    color: #ff79da;
+}
+
+.like3:hover {
+    cursor: pointer;
+    filter: opacity(10);
+    transition: 0.70s;
+    color: #ff79da;
+}
+
+.menu_items:hover {
+    transition: 1s;
+    padding-right: 16%!important;
+}
+
+.menu_items:hover>.menu_items_confirmation .menu_items_animation {
+    transform: rotate(180deg);
+}
+
+.section1:hover>.prix_1 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section2:hover>.prix_2 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section3:hover>.prix_3 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section4:hover>.prix_4 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section5:hover>.prix_5 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section6:hover>.prix_6 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section7:hover>.prix_7 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section8:hover>.prix_8 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section9:hover>.prix_9 {
+    padding-right: 10%;
+    padding: auto;
+}
+
+.section3:hover>.prix_3 .menu_items_confirmation .menu_items_animation {
+    margin-right: 10%;
+}
+
+.command_Btn:hover {
+    transition: 1s;
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.proposer_restaurant:hover {
+    text-decoration: underline;
+}
+
+.partenaire:hover {
+    text-decoration: underline;
+}
+
+.footer_list1:hover {
+    text-decoration: underline;
+}
+
+.footer_list2:hover {
+    text-decoration: underline;
+}
