@@ -197,19 +197,6 @@ footer .material-icons.footerIcon {
     font-weight: 200;
 }
 
-.heroItem::after {
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: url(/images/gold-cutlery-set-black-background.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
 .loadScreen {
     background: white;
     position: fixed;
