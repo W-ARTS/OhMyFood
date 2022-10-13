@@ -1,0 +1,77 @@
+@media (min-width: 650px) {
+    .heroItem {
+        height: 40rem;
+        background: none;
+        color: white;
+        position: relative;
+    }
+
+    .heroItem::after {
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url(/images/gold-cutlery-set-black-background.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .gridList {
+        grid-template-columns: none !important;
+        column-gap: 2rem;
+    }
+
+        .material-icons {
+            font-size: 30px !important;
+        }
+
+}
+
+@media (min-width: 650px) {
+    .gridList {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        column-gap: 2rem;
+    }
+
+    .homeSsection {
+        padding: 6rem 4rem;
+    }
+}
+
+@media (min-width: 600px) {
+
+
+    .menuRestaurantImage {
+        min-height: 40rem;
+    }
+
+    .menuRestaurantTitle {
+        font-size: 3.5rem;
+    }
+
+    .menuHeader {
+        justify-content: center;
+    }
+
+    .menuWrapper {
+        padding: 4rem;
+        border-radius: 0;
+    }
+
+    .allMenus {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .allMenus {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
