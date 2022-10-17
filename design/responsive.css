@@ -42,6 +42,10 @@
     .homeSsection {
         padding: 6rem 4rem;
     }
+
+    .noEffects {
+        text-decoration: none;
+    }
 }
 
 @media (min-width: 600px) {
