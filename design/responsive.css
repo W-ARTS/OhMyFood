@@ -1,3 +1,4 @@
+/*rajouts mobile*/
 @media (min-width: 650px) {
     .heroItem {
         height: 40rem;
@@ -18,22 +19,7 @@
         background-position: center;
         background-size: cover;
     }
-}
 
-@media screen and (max-width: 767px) {
-
-    .gridList {
-        grid-template-columns: none !important;
-        column-gap: 2rem;
-    }
-
-        .material-icons {
-            font-size: 30px !important;
-        }
-
-}
-
-@media (min-width: 650px) {
     .gridList {
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
         column-gap: 2rem;
@@ -46,6 +32,18 @@
     .noEffects {
         text-decoration: none;
     }
+}
+
+@media screen and (max-width: 767px) {
+
+    .gridList {
+        grid-template-columns: none !important;
+        column-gap: 2rem;
+    }
+
+        .material-icons {
+            font-size: 30px !important;
+        }
 }
 
 @media (min-width: 600px) {
